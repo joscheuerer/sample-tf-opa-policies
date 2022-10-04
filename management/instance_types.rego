@@ -15,7 +15,8 @@ allowed_types = {
 instance_type_key = {
     "aws": "instance_type",
     "azurerm": "vm_size",
-    "google": "machine_type"
+    "google": "machine_type",
+    "aviatrix": "instance_size"
 }
 
 array_contains(arr, elem) {
